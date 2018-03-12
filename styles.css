@@ -1,0 +1,347 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+@font-face {
+    font-family: myFirstFont;
+    src:url(Didot-HTF-L42-Light.ttf);
+}
+
+.clear:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.clear {
+	zoom: 1;	
+}
+
+body {
+	font-family:"Didot";	
+}
+
+.mainContainer {
+	background-color: #f9f9f9;
+}
+
+.header {
+   background-image: url("images/image1.jpeg"); 
+   background-size: cover; 
+   height:810px; 
+   color:rgb(233, 87, 62);
+   padding-bottom: 30px;
+   text-align:center;
+   background-clip: padding-box;
+}
+.header h2 {
+	letter-spacing: 10px;
+	font-size: 3em;	
+	padding-top: 10px;
+    clear: both;
+    font-family:"Didot";
+	opacity: 0.75;
+    font-weight:bold;
+	margin-bottom: 0;
+    
+}
+nav {
+	
+	border-left: none;
+    border-right: none;
+    font-family:"Jazz let";
+}
+nav ul {
+	padding: 0;
+	margin: 0;	
+}
+nav li {
+	
+	padding: 0;
+    margin: 0;
+    display:inline-block;
+    list-style: none;     	
+}
+nav a {
+	letter-spacing: 2px;
+	float: left;	
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+    transition: all .5s;
+    color:rgb(233, 87, 62);
+	opacity: 0.75;
+}
+nav li:last-of-type a {
+	border-right: none;	
+}
+nav a:hover {
+    color:green;
+    transform: translateY(5px);
+}
+.textbutton, .featurebutton, .downbutton{
+    display:block;  
+    text-align:center;
+    height:auto;
+    margin-top:-10px;    
+}
+
+.detail1, .detail2, .detail3 {
+	display:block;  
+    text-align:center;
+    height:auto;
+    margin-top:-10px;
+}
+.detail1Txt {
+	display: inline;
+	letter-spacing: 5px;
+	background-color:white;
+    color:rgb(233, 87, 62);
+    font-family:  jazz let;	
+    padding:10px;
+    width:50%;
+	box-shadow: 0 0px 0px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.detail2 {
+	position: relative;
+    margin-top:10px;
+    margin-bottom:-10px;
+}
+.detail3 {
+	position: relative;
+}
+.todayitem {
+	position: static;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+.todayitem img {
+    width: 100%;
+    height: auto;
+    margin: -450px 0 0 45px;
+	margin-left: 0;
+}
+.todayitem .imgContent2 {
+	position: absolute;
+	margin: -600px 45px 45px 210px;
+	font-style:italic;
+    font-family:cursive;
+	font-size: 25px;
+	color: rgb(233, 87, 62);
+}
+.todayitem .imgContent2 .hr{
+	border-top: 1px solid rgb(233, 87, 62) !important;
+}
+.section_heading .hr{
+	width: 4em;
+	border-top: 1px solid rgb(233, 87, 62) !important;
+}
+.row {
+	margin-left: 65px !important;
+}
+.section2{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.section1{
+    text-align:center;
+    color:rgb(233, 87, 62);
+    font-family:"Didot";	   
+}
+.section1 p{
+    color:grey;
+}
+.section_heading{
+    color:rgb(233, 87, 62);
+    text-align:center;
+    font-family:"Jazz let";	  
+}
+.section_heading p{
+    color:grey;   
+}
+.icons{
+    display:inline-block;
+    position: relative;   
+}
+.icon1{
+    height:16.5em;
+    width:16em;
+    border:0;
+}
+.text-block {
+    position: absolute;
+    bottom:22px;
+    text-align:center;
+    display:inline-block;
+    left:100px;
+    font-style:italic;
+    color:rgb(237, 98, 73);
+    font-family:"Didot";	
+}
+footer {
+    font-size: .75em;
+    color:rgb(233, 87, 62);	
+    font-family:"Didot";	
+    text-align:center;
+    display:inline-block;
+    margin-top: 25px;
+	margin-bottom: 25px;
+}
+/* Tablet view (Portrait mode) - Start */
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+	.header {
+		height: 425px;
+	}
+	
+	.todayitem {
+		height: auto;
+	}
+	
+	.todayitem img {
+		margin: -235px 0px -85px 45px;
+		margin-left: 0;
+	}
+
+	.todayitem p, .todayitem .hr, .todayitem h6 {
+		display:none;
+	}
+	
+	.icon1{
+		height:100px;
+		width:9em;
+		border:0;
+		float:left;
+	}
+	
+	.text-block{
+		left:2em;
+		float:right;
+		bottom: 0;
+	}
+	
+}
+/* Tablet view (Portrait mode) - End */
+
+/* Tablet view (Landscape mode) - Start */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.row {
+		margin-left: 125px !important;
+	}
+}
+/* Tablet view (Landscape mode) - End */
+
+@media (max-width: 767px){
+	
+	.header {
+		height: 220px;
+	}
+	
+	.header h2 {
+		font-size: 12px;
+	}
+	
+	nav a {
+		font-size: 6.5px;
+		letter-spacing: 1px;
+		padding: 0;
+	}
+	.detail1Txt {
+		font-size: 8px;
+		letter-spacing: 2px;
+	}
+	.section1 h3 {
+		font-size: 14px;
+	}
+	.section1 p {
+		font-size: 9px;
+	}
+    .todayitem p, .todayitem .hr, .todayitem h6 {
+		display:none;
+	}
+	.todayitem {
+		height: 145px;
+	}
+	.todayitem img {
+		margin: -110px 0px -85px 45px;
+		margin-left: 0;
+	}
+	.section_heading h2 {
+		font-size: 14px;
+	}
+	.section_heading hr {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.section_heading p {
+		font-size: 9px;
+	}
+	.row {
+		margin-left: 10px !important;
+	}
+	.icons {
+		left: -10px;
+	}
+    .icon1{
+        height:60px;
+        border:0;
+    }
+    .text-block{
+        left:20px;
+		bottom: -10px;
+		font-size: 10px;
+    }
+	footer {
+		font-size: 0.35em;
+	}
+	
+} 
+@media (max-width: 767px) and (orientation: landscape) {
+	.icon1 {
+		height: 110px;
+	}
+	
+	.text-block {
+		left: 65px;
+		bottom: 0px;
+	}
+	
+	footer {
+		font-size: 0.50em;
+	}
+}
